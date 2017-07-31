@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="lorem">
+  <meta name="keywords" content="key,words">
+  <title>extract class name</title>
+  <style>
+  div {
+    margin-bottom: 1em;
+  }
+  p {
+    margin: 0;
+  }
+  textarea {
+    width: 400px;
+    height: 30vh;
+    resize: none;
+  }
+  </style>
+</head>
+
+<body>
+  <div>
+    <button id="convert-btn">convert</button>
+    <button id="clear-btn">clear</button>
+    <button id="reset-btn">reset</button>
+    <span>time:</span><span id="timer">0</span><span>ms</span>
+  </div>
+  <div>
+    <p>source:</p>
+    <textarea id="input-area"></textarea>
+  </div>
+  <div>
+    <p>extracted:</p>
+    <textarea id="output-area"></textarea>
+  </div>
+  <script src="extract-class-name.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
